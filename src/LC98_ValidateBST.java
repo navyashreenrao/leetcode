@@ -1,4 +1,4 @@
-public class LC98ValidateBST {
+public class LC98_ValidateBST {
     public boolean isValidBST(TreeNode root) {
         return helper(root,Long.MAX_VALUE,Long.MIN_VALUE);
     }
